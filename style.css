@@ -11,9 +11,22 @@ p {
   margin: 0;
   font-weight: normal;
   font-size: 100%;
+  background-color: aqua;
 }
 
 .header {
+
+}
+
+.menu-otn {
+
+}
+
+.logo-otn {
+
+}
+
+.address-otn {
 
 }
 
@@ -21,6 +34,87 @@ p {
 
 }
 
+.cover {
+  background-image: url('images/lotus-flower-cover.png');
+  background-repeat: no-repeat;
+}
+
+.description {
+
+}
+
+.btn-see-all-lots {
+
+}
+
+.lots-otn {
+
+}
+
+.block-lots {
+
+}
+
+.block-lots__film {
+  background-image: url('images/photo-film.png');
+  background-repeat: no-repeat;
+}
+
+.block-lots__book {
+  background-image: url('images/photo-book.png');
+  background-repeat: no-repeat;
+}
+
+.block-lots__picture {
+  background-image: url('images/photo-picture.png');
+  background-repeat: no-repeat;
+}
+
 .footer {
-  
+
+}
+
+.cover {
+
+}
+
+.description {
+
+}
+
+.bold-title {
+  font-family: Ralewa /*TODO: yдопишиальтернативныйе шрифты после добавления файлов шрифтов*/; 
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.font-main {
+  font-family: Ralewa /*TODO: yдопишиальтернативныйе шрифты после добавления файлов шрифтов*/;
+  font-size: 20px;
+}
+
+.list-marker-header {
+  list-style-type: circle;
+}
+
+/* .list-marker-footer {
+  если понадобиться, но удобнее
+  универсальным св-ом list-no-marker
+} */
+
+.list-no-marker {
+  list-style-type: none;
+}
+
+.font-list {
+  font-family: Ralewa /*TODO: yдопишиальтернативныйе шрифты после добавления файлов шрифтов*/;
+  font-size: 18px;
+}
+
+.font-list__underlined {
+  text-decoration: underline;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* черный фон, 60 % прозрачности */
 }
